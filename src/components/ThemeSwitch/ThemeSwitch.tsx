@@ -1,5 +1,4 @@
-import { FC, useEffect, useState, useContext } from 'react';
-import { UIContext } from '@/context/ui';
+import { FC, useEffect, useState } from 'react';
 
 import { Switch } from '@nextui-org/react';
 import { MoonIcon } from './MoonIcon';
