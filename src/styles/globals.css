@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/utilities';
+@import 'tailwindcss/components';
+
+@import './components/index.css';
+@import './utilities.css';
+
+body {
+  @apply font--color;
+  @apply base--tertiary;
+  font-size: 1rem;
+	/* min-height: 150vh; */
+}
